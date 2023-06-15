@@ -1,0 +1,42 @@
+18:28:39 From  Farooquee, Azi  to  Everyone:
+	QQ: For the first challenge, we upload the file to our personal Dropbox/Google Drive and put the link to the file on our Github page?
+18:29:26 From  Natalie Ericson  to  Everyone:
+	I thought we were just supposed to upload the Google Drive link directly to the assignment submission
+18:30:10 From  Farooquee, Azi  to  Everyone:
+	Which Google Drive? My personal or is there one for the bootcamp?
+18:32:23 From  Farooquee, Azi  to  Everyone:
+	OK .. thanks
+18:37:44 From  Timothy Coleman  to  Everyone:
+	I was able to finally open the Chessboard; however, I'm having the problem with macros again in Windows 11 opening up this file.
+18:40:38 From  Zachary Kroell  to  Everyone:
+	15
+18:47:22 From  Farooquee, Azi  to  Everyone:
+	MsgBox only accepts String type
+18:47:26 From  Farooquee, Azi  to  Everyone:
+	?
+18:53:34 From  Manguera, Annely  to  Everyone:
+	20
+19:21:37 From  Krohn, Julia  to  Everyone:
+	I’m having the same issue! I can’t open up the .vbs item in the “Unsolved” folders
+19:21:46 From  Briggs, Whitney  to  Everyone:
+	Same
+19:21:54 From  Hobbs, Willie  to  Everyone:
+	im hsving the same problem
+19:22:24 From  Thom Banninga  to  Everyone:
+	you can import it under "file" in the visual basic window
+19:25:23 From  Dawson Michael Marcade  to  Everyone:
+	range("B2").Value = Ingredients(2)
+19:25:50 From  Briggs, Whitney  to  Everyone:
+	Jelly = range("B2"), Value
+19:30:25 From  Briggs, Whitney  to  Everyone:
+	10
+19:32:13 From  Solis, Peter  to  Everyone:
+	be
+20:42:26 From  Richard Wanjohi  to  Everyone:
+	Sub forLoop()		Dim i As Integer	    For i = 1 To 20	        ' Places a value of 1 in A1 to A20	        Cells(i, 1).Value = 1	        ' Places a value of 5 in A1 to T1	        Cells(1, i).Value = 5	        ' Places increasing values based upon the variable "i" in B2 to B21	        Cells(i + 1, 2).Value = i + 1	    Next i	    	End Sub
+21:04:25 From  Richard Wanjohi  to  Everyone:
+	Sub loops_and_loops()		    ' Loop through first 10 rows	    For i = 1 To 10		        ' Set values in column 1 to "I will eat"	        Cells(i, 1).Value = "I will eat "		        ' Set values in column 2 to the sum of the counter + 10	        Cells(i, 2).Value = i + 10		        ' Set values in column 3 to "Chicken Nuggets"	        Cells(i, 3).Value = "Chicken Nuggets"		    ' Call the next iteration	    Next i		End Sub			Sub conditional_loops()		    ' Create a for loop from 1 to 10	    For i = 1 To 10		        ' Use the modulus function to determine if a number is divisible by 2 (even number)	        If Cells(i, 1).Value < 5 Then		            ' Enter "Even Row" the adjacent cell	            Cells(i, 2).Value = "young"	            	        ' If the number is not divisible by 2 (odd number)	        Else		            ' Enter "Even Row" the adjacent cell	            Cells(i, 2).Value = "Old"	            	        ' Close the If/Else Statement	        End If		    Next i		End Sub
+21:16:13 From  Dawson Michael Marcade  to  Everyone:
+	double commas
+21:19:00 From  Richard Wanjohi  to  Everyone:
+	Sub ifonly():	If Cells(2, 1).Value < Cells(18, 1).Value Then	Cells(3, 4).Value = "less than"	Else:	Cells(4, 4).Value = "grater than"	End If		End Sub
